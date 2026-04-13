@@ -14,11 +14,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Intent_with_compose">
         <activity
+            android:name=".Practice"
+            android:exported="true"
+            android:label="@string/title_activity_practice"
+            android:theme="@style/Theme.Intent_with_compose">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Intent_with_compose">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

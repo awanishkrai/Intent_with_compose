@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Intent_with_compose</string>
+    <string name="title_activity_lazy_column">LazyColumn</string>
+    <string name="title_activity_practice">Practice</string>
 </resources>
